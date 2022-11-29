@@ -1,0 +1,36 @@
+#include<string>
+#include<iostream>
+using namespace std;
+
+void main()
+{
+	string skinFullName = " AWP Gungnir";
+	unsigned int skinPattern =  5;
+	unsigned short int BoughtForADay =  1;
+	unsigned int skinOnMarket =  10;
+	bool isOnMarket = true;
+	string operation = " Broken Fang";
+	string collection = " Havoc";
+	const double prise =  1000;
+
+	unsigned int totalMemory = sizeof(skinFullName) +
+		sizeof(skinPattern) +
+		sizeof(BoughtForADay) +
+		sizeof(skinOnMarket) +
+		sizeof(isOnMarket) +
+		sizeof(operation) +
+		sizeof(collection) +
+		sizeof(prise);
+
+	cout << "Name of skin: " << skinFullName << endl;
+	cout << "Pattern: " << skinPattern << endl;
+	cout << "Bought for a day: " << BoughtForADay << endl;
+	cout << "Count of market: " << skinOnMarket << endl;
+	cout << "Is it on market: " << isOnMarket << endl;
+	cout << "Operation: " << operation << endl;
+	cout << "Collection: " << collection << endl;
+	cout << "Prize(in dollars USA): " << prise << endl;
+
+	cout << "Memory used: " << totalMemory << endl;
+	
+}
