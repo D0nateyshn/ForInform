@@ -1,0 +1,71 @@
+#include <iostream>
+#include <stdio.h>
+#include <cstring>
+#include <string>
+#pragma warning(disable : 4996)
+enum { MAX_PASSWORD_LENGHT = 10 };
+using namespace std;
+
+void show_menu() {
+	wcout << L"Оберiть пункт" << endl;
+	wcout << L"1. Логiн Ощадбанку" << endl;
+	wcout << L"2. ПIН-код карти" << endl;
+	wcout << L"3. Закрити программу" << endl;
+}
+
+wstring* enter_login() {
+	wstring* login = new wstring();
+	wcout << L"Введіть логiн(числа особового кабiнету)";
+	wcin.ignore();
+	getline(wcin, *login);
+	return login;
+}
+
+wchar_t* enter_password() {
+	wchar_t* password = new wchar_t[MAX_PASSWORD_LENGHT];
+	std::wstring passwor;
+	wcout << L"Введiть ПIН-код вашої картки" << endl;
+	wcin >> passwor;
+	wcsncpy(password, passwor.c_str(), MAX_PASSWORD_LENGHT);
+	return password;
+}
+
+void menu() {
+	short int selectedMenuItem = 1;
+	wstring* login = NULL;
+	wchar_t* password = NULL;
+	do {
+		show_menu();
+		wcin >> selectedMenuItem;
+		switch (selectedMenuItem) {
+		case 1:
+
+
+			login = enter_login();
+			break;
+		case 2:
+			password = enter_password();
+			std::wcout << L"Ваш пароль:\t" << password << endl;
+			break;
+		case 3:
+		default:
+			exit(0);
+		}
+		if (!login->empty()) {
+			std::wcout << L"Ваш логін:\t" << login << endl;
+			break;
+		}
+		else {
+			if (password != NULL)
+			{
+				std::wcout << L"ПIН-код успiшно змiнений на :\t" << endl << password;
+				delete[] password;
+			}
+		}
+	} while (true);
+}
+int main() {
+	setlocale(LC_ALL, "ru_RU.UTF-8");
+	//setlocale(LC_ALL,"");
+	menu();
+}
