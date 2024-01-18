@@ -1,0 +1,11 @@
+C:\Users\mpv_2\source\repos\Laba7(latest)\Laba7(latest)\obj\Debug\netcoreapp2.1\Laba7(latest).csproj.AssemblyReference.cache
+C:\Users\mpv_2\source\repos\Laba7(latest)\Laba7(latest)\obj\Debug\netcoreapp2.1\Laba7(latest).csproj.CoreCompileInputs.cache
+C:\Users\mpv_2\source\repos\Laba7(latest)\Laba7(latest)\obj\Debug\netcoreapp2.1\Laba7(latest).AssemblyInfoInputs.cache
+C:\Users\mpv_2\source\repos\Laba7(latest)\Laba7(latest)\obj\Debug\netcoreapp2.1\Laba7(latest).AssemblyInfo.cs
+C:\Users\mpv_2\source\repos\Laba7(latest)\Laba7(latest)\bin\Debug\netcoreapp2.1\Laba7(latest).deps.json
+C:\Users\mpv_2\source\repos\Laba7(latest)\Laba7(latest)\bin\Debug\netcoreapp2.1\Laba7(latest).runtimeconfig.json
+C:\Users\mpv_2\source\repos\Laba7(latest)\Laba7(latest)\bin\Debug\netcoreapp2.1\Laba7(latest).runtimeconfig.dev.json
+C:\Users\mpv_2\source\repos\Laba7(latest)\Laba7(latest)\bin\Debug\netcoreapp2.1\Laba7(latest).dll
+C:\Users\mpv_2\source\repos\Laba7(latest)\Laba7(latest)\bin\Debug\netcoreapp2.1\Laba7(latest).pdb
+C:\Users\mpv_2\source\repos\Laba7(latest)\Laba7(latest)\obj\Debug\netcoreapp2.1\Laba7(latest).dll
+C:\Users\mpv_2\source\repos\Laba7(latest)\Laba7(latest)\obj\Debug\netcoreapp2.1\Laba7(latest).pdb
